@@ -13,22 +13,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <img src="/images/logo.png" class="logo">
-            <h2>Trading Tool</h2>
-            <nav>
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/pages/features.html">Features</a></li>
-                    <li><a href="/pages/about_us.html">About US</a></li>
-                    <li><a href="/pages/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="btn1" id="btn1">Log In</button>
-
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+            <img src="/images/logo.png"  width=50 style="max-height: 70;"> 
+            <h2><b> Trading Tool </b></h2>
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
         </div>
-    </div>
+    
+        <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item"  href="/index.html">HOME</a>
+            <a class="navbar-item"  href="/pages/features.html">FEATURES</a>
+            <a class="navbar-item"  href="/pages/about_us.html">ABOUT US</a>
+            <a class="navbar-item"  href="/pages/contact.html">CONTACT</a>
+            
+
+            </div>
+        </div>
+    
+        <div class="navbar-end">
+            <div class="navbar-item">
+            <div class="buttons">
+
+                <a class="button is-primary">
+                <strong>Log In</strong>
+                </a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </nav>
     <hr>
 </body>
 
